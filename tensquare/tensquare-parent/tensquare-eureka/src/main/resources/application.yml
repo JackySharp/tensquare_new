@@ -1,0 +1,11 @@
+server:
+  port: 6868
+spring:
+  application:
+    name: tensquare-eureka
+eureka:
+  client:
+    register-with-eureka: false  #不将自己注册到eureka服务中
+    fetch-registry: false        #不从eureka提取注册信息
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka/  #eureka服务端与客户端通信的ip地址

@@ -1,0 +1,7 @@
+server:
+  port: 9028
+spring:
+  application:
+    name: tensquare-listener
+  rabbitmq:
+    host: 192.168.25.130

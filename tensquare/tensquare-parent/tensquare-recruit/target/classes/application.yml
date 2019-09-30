@@ -1,0 +1,14 @@
+server:
+  port: 9022
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.25.130:3306/tensquare_recruit?characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    database: mysql
+  application:
+    name: tensquare-recruit

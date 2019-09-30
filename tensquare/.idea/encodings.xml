@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/MongoDBDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/rabbitmq-listener" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-article" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-friend" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-gathering" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-qa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-recruit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-split" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tensquare-parent/tensquare-web" charset="UTF-8" />
+  </component>
+</project>

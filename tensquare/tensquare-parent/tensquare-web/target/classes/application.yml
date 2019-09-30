@@ -1,0 +1,19 @@
+server:
+  port: 9032
+spring:
+  application:
+    name: tensquare-web
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
+  instance:
+    prefer-ip-address: true
+#配置zuul
+zuul:
+  #通过zuul传递请求头时，zuul默认过滤掉(清空)"Cookie"、"Set-Cookie"、"Authorization"三个敏感请求字段，不向下传递，需要加上下面这个配置排除过滤字段
+  sensitive-headers:   #此值必须为空
+  routes:
+    tensquare-gateway:
+      path: /**  #代表访问网关的映射路径，例如：http://localhost:9001/base/label/1234就代表要访问在eureka-server中注册名称为tensquare-base的那个微服务
+      serviceId: tensquare-gateway  #代表1在eureka-server中注册的微服务的名称

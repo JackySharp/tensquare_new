@@ -1,0 +1,21 @@
+server:
+  port: 9024
+spring:
+  application:
+    name: tensquare-article
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.25.130:3306/tensquare_article?characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+  jpa:
+    database: mysql
+    generate-ddl: true
+    show-sql: true
+  #配置redis主机
+  redis:
+    host: 192.168.25.130
+  data:
+    mongodb:
+      host: 192.168.25.130
+      database: commentdb

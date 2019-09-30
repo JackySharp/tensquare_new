@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tensquare-article/tensquare-article.iml" filepath="$PROJECT_DIR$/tensquare-article/tensquare-article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare-base/tensquare-base.iml" filepath="$PROJECT_DIR$/tensquare-base/tensquare-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare-common/tensquare-common.iml" filepath="$PROJECT_DIR$/tensquare-common/tensquare-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare-gathering/tensquare-gathering.iml" filepath="$PROJECT_DIR$/tensquare-gathering/tensquare-gathering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare-parent.iml" filepath="$PROJECT_DIR$/tensquare-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare-qa/tensquare-qa.iml" filepath="$PROJECT_DIR$/tensquare-qa/tensquare-qa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare-recruit/tensquare-recruit.iml" filepath="$PROJECT_DIR$/tensquare-recruit/tensquare-recruit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare-search/tensquare-search.iml" filepath="$PROJECT_DIR$/tensquare-search/tensquare-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tensquare-split/tensquare-split.iml" filepath="$PROJECT_DIR$/tensquare-split/tensquare-split.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+server:
+  port: 9029
+spring:
+  application:
+    name: tensquare-user
+  rabbitmq:
+    host: 192.168.25.130
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.25.130:3306/tensquare_user?characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+  jpa:
+    database: mysql
+    generate-ddl: true
+    show-sql: true
+  redis:
+    host: 192.168.25.130
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
+  instance:
+    prefer-ip-address: true
